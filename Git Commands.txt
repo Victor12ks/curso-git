@@ -6,7 +6,7 @@ git commit -m "{mensagem do commit}" # para commitar localmente
 git log # para verificar historico de commits
 git log --oneline # verificar historico de commits resumido
 git log -p # verifica historico de forma bem detalhada
-#para mais exemplos de filtro de historico https://devhints.io/git-log
+#para mais exemplos de filtro de historico https://devhints.io/git-log # git log --pretty="parametros de formatação"
 
 
 
