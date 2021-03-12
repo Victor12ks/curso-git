@@ -3,3 +3,18 @@ git status - mostra o estado do repositorio
 git add <file> - coloca o monitorar o arquivo (equivalente ao stage)
 git rm --cached <file> - coloca pra desmonitrar o arquivo (equivalente ao unstage)
 git commit -m "{mensagem do commit}" - para commitar localmente
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------
+HEAD: Estado atual do nosso código, ou seja, onde o Git nos colocou
+Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
+index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
