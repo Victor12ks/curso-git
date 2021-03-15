@@ -13,6 +13,9 @@ git remote # listar todos os repositorio remotes do repositorio local
 git remote add {nome do repositorio local} {endereço do repositorio} # adicionar aquele repositorio a algum "server"
 git remote -v # mostra o endereço local
 git clone {endereço do repositorio} {nome para pasta}
+git push {nome do repositorio} {branch} # enviar para o servidor
+git pull {nome do repositorio} {branch} # pegar os dados
+git remote rename {atual} {outro}
 
 
 
@@ -26,6 +29,3 @@ git clone {endereço do repositorio} {nome para pasta}
 HEAD: Estado atual do nosso código, ou seja, onde o Git nos colocou
 Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
 index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
-
-
-teste
