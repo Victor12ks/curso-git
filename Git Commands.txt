@@ -9,6 +9,11 @@ git log -p # verifica historico de forma bem detalhada
 #para mais exemplos de filtro de historico https://devhints.io/git-log # git log --pretty="parametros de formatação"
 
 
+git remote # listar todos os repositorio remotes do repositorio local
+git remote add {nome do repositorio local} {endereço do repositorio} # adicionar aquele repositorio a algum "server"
+git remote -v # mostra o endereço local
+git clone {endereço do repositorio} {nome para pasta}
+
 
 
 
